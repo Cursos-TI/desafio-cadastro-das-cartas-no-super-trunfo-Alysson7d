@@ -97,24 +97,34 @@
         printf("Ponto turistico %d - densidade: %.2f hab/km² - PIB per Capita: %.2f reais: \n", Pontosturisticos2,densidade2,PIBpercapita2);
 
         if( Populacao > Populacao2 ){
-            printf("Carta1 (Fortaleza) venceu! \n");
+            printf("Maior Populçao: Carta1 (Fortaleza) venceu! \n");
         } else{
-            printf("Carta2 (Acre) venceu!\n");
+            printf("Maior População Carta2 (Acre) venceu!\n");
         }
            if( area > area2 ){
-            printf("Carta1 (Fortaleza) venceu! \n");
+            printf("Maior Area: Carta1 (Fortaleza) venceu! \n");
         } else{
-            printf("Carta2 (Acre) venceu!\n");
+            printf("Maior Area: Carta2 (Acre) venceu!\n");
         }
         if( pib > pib2 ){
-            printf("Carta1 (Fortaleza) venceu! \n");
+            printf("Maior PIB:Carta1 (Fortaleza) venceu! \n");
         } else{
-            printf("Carta2 (Acre) venceu!\n");
+            printf("Maior PIBCarta2 (Acre) venceu!\n");
         }
         if( Pontosturisticos > Pontosturisticos2 ){
-            printf("Carta1 (Fortaleza) venceu! \n");
+            printf("Mais Pontos Turisticos:Carta1 (Fortaleza) venceu! \n");
         } else{
-            printf("Carta2 (Acre) venceu!\n");
+            printf("Mais pontos turisticos: Carta2 (Acre) venceu!\n");
+        }
+         if( PIBpercapita > PIBpercapita2 ){
+            printf("Maior PIBpercapita: Carta1 (Fortaleza) venceu! \n");
+        } else{
+            printf("Maior PIBpercapita: Carta2 (Acre) venceu!\n");
+        }
+        if( densidade < densidade2 ){
+            printf("Maior desnsidade:Carta1 (Fortaleza) venceu! \n");
+        } else{
+            printf("Maior densidade: Carta2 (Acre) venceu!\n");
         }
             return 0;
 
