@@ -96,7 +96,26 @@
         printf("Populacao: %d - area: %.3f km² - pib: %.3f bilhoes de reais: \n", Populacao2,area2,pib2);
         printf("Ponto turistico %d - densidade: %.2f hab/km² - PIB per Capita: %.2f reais: \n", Pontosturisticos2,densidade2,PIBpercapita2);
 
-
+        if( Populacao > Populacao2 ){
+            printf("Carta1 (Fortaleza) venceu! \n");
+        } else{
+            printf("Carta2 (Acre) venceu!\n");
+        }
+           if( area > area2 ){
+            printf("Carta1 (Fortaleza) venceu! \n");
+        } else{
+            printf("Carta2 (Acre) venceu!\n");
+        }
+        if( pib > pib2 ){
+            printf("Carta1 (Fortaleza) venceu! \n");
+        } else{
+            printf("Carta2 (Acre) venceu!\n");
+        }
+        if( Pontosturisticos > Pontosturisticos2 ){
+            printf("Carta1 (Fortaleza) venceu! \n");
+        } else{
+            printf("Carta2 (Acre) venceu!\n");
+        }
             return 0;
 
 }
